@@ -1,0 +1,134 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	/*取消浏览器默认设置*/
+}
+
+#header {
+	height: 103px;
+	background-color: #fffffff;
+}
+
+#header_logo {
+	margin-left: 206px;
+	margin-top: 17px;
+	width: 200px;
+	height: 69px;
+	/*强制设定图片宽高*/
+}
+
+#header_contact {
+	position: absolute;
+	right: 308px;
+	top: 16px;
+	/*使电话移动到右上*/
+}
+
+#header_contact img {
+	float: left;
+}
+
+#header_contact span {
+	margin-left: 5px;
+	float: left;
+	font-size: 10px;
+}
+
+#header_contact span strong {
+	font-size: 20px;
+	color: #00b3e1;
+}
+
+#nav {
+	width: 532px;
+	height: 43px;
+	position: absolute;
+	top: 60px;
+	right: 300px;
+	list-style-type: none;
+}
+
+#nav li {
+	float: left;
+	width: 76px;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+}
+
+#nav li a:link {
+	color: #666666;
+}
+
+#nav li a:visited {
+	color: #666666;
+}
+
+#nav li a:hover {
+	color: #00B3E1;
+}
+
+#nav li a:active {
+	color: #00b3e1;
+}
+
+#nav li a {
+	text-decoration: none;
+}
+
+#carousel {
+	height: 504px;
+	background-color: #1062ae;
+}
+
+#carousel img {
+	width: 100%;
+}
+
+#carousel_before {
+	color: white;
+	font-size: 50px;
+	position: absolute;
+	top: 250;
+	left: 30px;
+}
+
+#carousel_before a {
+	color: white;
+	font-size: 50px;
+	text-decoration: none;
+}
+#carousel_next {
+	color: white;
+	font-size: 50px;
+	position: absolute;
+	top: 250;
+	right: 30px;
+}
+
+#carousel_next a {
+	color: white;
+	font-size: 50px;
+	text-decoration: none;
+}
+#carousel ul{
+	list-style-type: none;
+	position: absolute;
+	left: 50%;
+	top: 420px;
+}
+#carousel ul li{
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-color: #666666;
+	margin-left: 5px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+}
+#carousel ul li a{
+	color:white;
+	text-decoration: none;
+}
